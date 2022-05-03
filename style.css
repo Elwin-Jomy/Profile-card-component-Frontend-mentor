@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&display=swap');
+.container{
+  position: relative;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+body{
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+.top-circle {
+  position: absolute;
+  top: -525px;
+  left: -327px;
+  width: 1256px;
+  z-index: 1;
+}
+.box-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+p{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.grey{
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+}
+.top img{
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.bottom{
+  background-color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.bottom img{
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.bottom-circle { 
+  position: absolute; 
+  bottom: -675px; 
+  right: -68px; 
+  width: 801px; 
+  z-index: 1; 
+}
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logo-div{
+  position: absolute;
+  top: 228px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.text-div{
+  line-height: 12px;
+  padding-bottom: 12px;
+}
+.stats{
+  line-height: 10px;
+}
+hr{
+  color: hsl(0, 0%, 59%);
+  opacity: 0.4;
+}

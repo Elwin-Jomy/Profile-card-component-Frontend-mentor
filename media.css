@@ -1,0 +1,20 @@
+@media (max-width:1350px) {
+  .top-circle {
+    position: absolute;
+    top: -657px;
+    left: -733px;
+    z-index: 1;
+}
+.bottom-circle {
+  position: absolute;
+  bottom: -675px;
+  right: -437px;
+  width: 739px;
+  z-index: 1; 
+}
+.container{
+  overflow: hidden;
+}
+}
+
+/*  */
